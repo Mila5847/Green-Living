@@ -41,6 +41,19 @@ File: Layout CSS
 #pageintro footer{margin-top:50px;}
 
 
+/* Contact Details
+--------------------------------------------------------------------------------------------------------------- */
+#ctdetails{padding:50px 0;}
+
+#ctdetails ul{}
+#ctdetails ul li{}
+#ctdetails ul li div{position:relative; min-height:45px; padding:0 0 0 60px; line-height:1; word-wrap:break-word;}
+#ctdetails ul li div i{position:absolute; top:0; left:0; width:45px; height:45px; line-height:45px; font-size:16px; text-align:center; border-radius:50%;}
+#ctdetails ul li div span{display:block; padding:4px 0 0 0;}
+#ctdetails ul li div strong{display:block; margin:0 0 8px 0;}
+#ctdetails div:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
+
+
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
 .container{padding:80px 0;}
